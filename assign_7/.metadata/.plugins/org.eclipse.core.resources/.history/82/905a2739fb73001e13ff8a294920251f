@@ -1,0 +1,20 @@
+package cricket;
+
+import java.util.Scanner;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		System.out.println("Enter the Number of Players : ");
+		Scanner sc = new Scanner(System.in);
+		int size = sc.nextInt();
+		Player[] arr = new Player[size];
+		
+		System.out.println("The Number of Players are : " +  Utility.countBatters(arr));
+		System.out.println("The Maximum Runs are : " +  Utility.totalRuns(arr));
+		System.out.println("The Maximum Wickets are : " +  Utility.maxWickets(arr));
+
+		
+	}
+
+}

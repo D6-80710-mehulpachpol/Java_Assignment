@@ -1,0 +1,46 @@
+package p2;
+
+public class Salaried extends Employee {
+	
+	double weeklySalary;
+	
+	
+	public double getWeeklySalary() {
+		return weeklySalary;
+	}
+
+
+
+	public void setWeeklySalary(double weeklySalary) {
+		this.weeklySalary = weeklySalary;
+	}
+
+
+
+	public Salaried(String securityNumber, String firstName, String lastName, double weeklySalary) {
+		super(securityNumber, firstName, lastName);
+		this.weeklySalary = weeklySalary;
+	}
+
+
+
+	@Override
+	public String toString() {
+		return "Salaried [weeklySalary=" + weeklySalary + ", securityNumber=" + securityNumber + ", firstName="
+				+ firstName + ", lastName=" + lastName + ", getWeeklySalary()=" + getWeeklySalary() + ", earnings()="
+				+ earnings() + ", getFirstName()=" + getFirstName() + ", getLastName()=" + getLastName()
+				+ ", getSecurityNumber()=" + getSecurityNumber() + ", toString()=" + super.toString() + ", getClass()="
+				+ getClass() + ", hashCode()=" + hashCode() + "]";
+	}
+
+
+
+	@Override
+	public double earnings() {	
+		System.out.println("The Earnings are : ");
+		return getWeeklySalary();
+	}
+
+	
+
+}

@@ -1,0 +1,14 @@
+package q1;
+
+public class Rectangle extends Polygon {
+	
+	int length;
+	int breadth;
+
+	@Override
+	public double calcArea() {
+		// TODO Auto-generated method stub
+		return length*breadth;
+	}
+
+}

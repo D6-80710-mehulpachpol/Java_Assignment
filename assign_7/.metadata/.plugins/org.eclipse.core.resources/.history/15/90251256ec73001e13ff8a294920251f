@@ -1,0 +1,37 @@
+package cricket;
+
+public class Cricketer extends Player implements Batter,Bowler {
+	
+	int runsmade;
+	int runsgiven;
+	int wickets;
+	
+	
+	@Override
+	public int getWickets() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	@Override
+	public double getEconomy() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	@Override
+	public int getRuns() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	@Override
+	public double getAverage() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	@Override
+	public double getStrikeRate() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+
+}

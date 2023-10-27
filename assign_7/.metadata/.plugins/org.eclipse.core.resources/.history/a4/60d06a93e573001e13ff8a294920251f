@@ -1,0 +1,13 @@
+package q1;
+
+public class Triangle extends Polygon {
+
+	@Override
+	public double calcArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+
+}

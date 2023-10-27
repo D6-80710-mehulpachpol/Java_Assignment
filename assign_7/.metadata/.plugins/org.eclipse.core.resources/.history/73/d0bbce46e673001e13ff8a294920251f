@@ -1,0 +1,13 @@
+package q1;
+
+public class Square extends Polygon {
+	
+	int side;
+
+	@Override
+	public double calcArea() {
+		// TODO Auto-generated method stub
+		return side*side;
+	}
+
+}

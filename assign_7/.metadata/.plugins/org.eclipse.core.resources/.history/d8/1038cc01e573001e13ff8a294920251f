@@ -1,0 +1,14 @@
+package q1;
+
+public class Polygon extends BoundedShape {
+	
+	int npOfSides;
+
+	@Override
+	public double calcArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+
+}

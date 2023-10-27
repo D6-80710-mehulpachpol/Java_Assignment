@@ -1,0 +1,35 @@
+//Create a new (utilility) class Players that contains
+//static methods to count number of batters, number of bowlers, total batter runs, total bowler wickets, 
+//return a batter with maximum runs, and return a bowler with maximum wickets
+
+
+package cricket;
+
+public class Utility {
+	
+	
+	public int countBatters() {
+		return 1;
+	}
+	public int countBowlers() {
+		return 1;
+	}
+	public int totalRuns() {
+		return 1;
+	}
+	public int totalWickets() {
+		return 1;
+	}
+	public int maxRuns() {
+		return 1;
+	}
+	public int maxWickets() {
+		return 1;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

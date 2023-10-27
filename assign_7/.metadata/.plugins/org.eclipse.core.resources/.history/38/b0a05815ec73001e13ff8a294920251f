@@ -1,0 +1,10 @@
+package cricket;
+
+public class Cricketer {
+	
+	int runsmade;
+	int runsgiven;
+	int wickets;
+	
+
+}

@@ -1,0 +1,30 @@
+package p2;
+
+public class Testapplication {
+
+	public static void main(String[] args) {
+
+		Employee e1 = new Salaried("SSN1", "Root", "Joe", 50000);
+		System.out.println(e1.earnings());
+		System.out.println(e1);
+		
+		e1 = new Hourly("SSN2", "Root", "Joe", 5000,5);
+		System.out.println(e1.earnings());
+		System.out.println(e1);
+		
+		e1 = new Commission("SSN3", "Root", "Joe", 50000 , 0.7);
+		System.out.println(e1.earnings());
+		e1.toString();
+		System.out.println(e1);
+
+		
+		e1 = new Salacommission("SSN4", "Root", "Joe", 50000 , 700 , 0.10);
+		System.out.println(e1.earnings());
+		System.out.println(e1);
+
+
+
+		
+	}
+
+}

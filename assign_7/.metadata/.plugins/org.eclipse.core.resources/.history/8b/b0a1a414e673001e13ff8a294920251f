@@ -1,0 +1,16 @@
+package q1;
+
+public class Circle extends BoundedShape{
+	
+
+
+	double radius;
+	public static final double Pi = 3.14;
+
+	@Override
+	public double calcArea() {
+		
+		return Pi*(radius*radius);
+	}
+
+}

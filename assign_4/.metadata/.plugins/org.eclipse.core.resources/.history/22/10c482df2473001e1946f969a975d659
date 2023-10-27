@@ -1,0 +1,37 @@
+package p2;
+
+public abstract class Employee {
+	
+	String securityNumber;
+	
+	
+	public Employee(String securityNumber) {
+		super();
+		this.securityNumber = securityNumber;
+	}
+
+
+	public String getSecurityNumber() {
+		return securityNumber;
+	}
+
+
+	public void setSecurityNumber(String securityNumber) {
+		this.securityNumber = securityNumber;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Employee [securityNumber=" + securityNumber + ", getSecurityNumber()=" + getSecurityNumber()
+				+ ", earnings()=" + earnings() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+				+ ", toString()=" + super.toString() + "]";
+	}
+
+
+	public abstract double earnings();
+	
+	
+	
+
+}

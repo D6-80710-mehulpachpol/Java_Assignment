@@ -1,0 +1,17 @@
+package testpackage;
+
+import java.time.LocalDate;
+
+import Assignment2.Date;
+
+public class TestDate {
+
+	public static void main(String[] args) {
+		
+		Date d1 = new Date(1,12,2001);
+		LocalDate today = LocalDate.now();
+		System.out.println("Todays Real Date : "+today);
+		d1.displayDate();
+	}
+
+}

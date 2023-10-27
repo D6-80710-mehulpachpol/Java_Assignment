@@ -1,0 +1,27 @@
+package p2;
+
+public class Salacommission extends Employee {
+	
+	double baseSalary;
+	double grossSalary;
+	double comm;
+	
+	
+	
+	public Salacommission(String securityNumber, String firstName, String lastName, double baseSalary,
+			double grossSalary, double comm) {
+		super(securityNumber, firstName, lastName);
+		this.baseSalary = baseSalary;
+		this.grossSalary = grossSalary;
+		this.comm = comm;
+	}
+
+
+
+	@Override
+	public double earnings() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
